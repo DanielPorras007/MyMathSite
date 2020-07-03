@@ -6,7 +6,7 @@ div#header{
     margin-top:0px;
     width: 997px;
     height: 200px;
-    background-image: url('Imagenes/Header.jpg');
+    background-image: url("Imagenes/Header.jpg");
    
 }
 
@@ -34,7 +34,7 @@ div#main{
     margin-top:0px;
     width: 997px;
     height: 50px;
-    background-image: url('Imagenes/Menu.jpg');
+    background-image: url("Imagenes/Menu.jpg");
 }
 
 div#content{
@@ -54,7 +54,7 @@ div#content{
 .menu a {
         display: block;
         padding: 18px;
-        font-family: pixelmix;
+        font-family: pixel;
         background-color: #03061179;
         text-decoration: none;
         color: #e6e6e6;
@@ -75,13 +75,13 @@ div#content{
 
 
 @font-face {
-    font-family: pricedown;
-    src: url(Fuentes/pricedown.TTF);
+    font-family: gta;
+    src: url("Fuentes/pricedown.TTF");
 }
 
 @font-face {
-    font-family: pixelmix;
-    src: url(Fuentes/pixelmix.ttf);
+    font-family: pixel;
+    src: url("Fuentes/pixelmix.ttf")
 }
 
 .lofi{
