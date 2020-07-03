@@ -1,0 +1,74 @@
+*{
+    padding: 0px;
+}
+
+div#header{
+    margin-top:0px;
+    width: 997px;
+    height: 200px;
+    background-image: url('Imagenes/Header.jpg');
+   
+}
+
+body {
+    background-image: url("Imagenes/Background1.jpg");
+    background-position:center top;
+    background-repeat:no-repeat;
+    margin:0;
+    padding:0;
+    background-color:#1d272d;
+    font-family:sans-serif;
+    font-size:13px;
+    background-attachment:fixed;
+}
+
+div#contact{
+    margin: 0px;
+    padding: 0px;
+
+    width: 997px;
+    height: 40px;
+}
+
+div#main{
+    margin-top:0px;
+    width: 997px;
+    height: 50px;
+    background-image: url('Imagenes/Menu.jpg');
+}
+
+div#content{
+    margin-top:0px;
+    width: 997px;
+    height: 3180px;
+    background-color: "#fff";
+}
+
+.menu ul {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    }
+    
+.menu a {
+        display: block;
+        padding: 18px;
+        font-family: pixelmix;
+        background-color: #03061152;
+        text-decoration: none;
+        color: #e6e6e6;
+    }
+
+.menu a:hover {
+        background-color: #0a207067;
+    }
+
+.menu ul li ul {
+        display: none;
+    }
+
+.menu ul li a:hover + ul,
+.menu ul li ul:hover {
+        display: block;
+    }
