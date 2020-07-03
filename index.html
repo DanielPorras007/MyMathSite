@@ -2,7 +2,7 @@
 
 <html lang="es">
     <head>
-        <title> Pagina principal</title>
+        <title> My Math Site </title>
         
         <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
         <link rel="stylesheet" type="text/css" href="index_style.css" />
@@ -10,7 +10,7 @@
         <style type="text/css">
             h1 {
                 color: rgb(192, 192, 192);
-                font-size: 100px;
+                font-size: 80px;
                 margin: auto;
                 margin-top: 20px;
                 text-align: center;
@@ -21,13 +21,19 @@
             }
             #titulo {
                 color: rgb(192, 192, 192);
-                font-size: 100px;
+                font-size: 120px;
                 margin: auto;
                 margin-top: 20px;
                 text-align: center;
                 font-family: pricedown;
                 text-decoration: none;
             }    
+
+            .sub{
+                color: black;
+                font-size: 70px;
+                font-family: pixelmix;
+            }
 
         </style>
     </head>
@@ -41,20 +47,20 @@
 
                             </div>
 
-                            <h1> <a id="titulo" href="#">My Math Site</a></h1>
+                            <h1> <a id="titulo" href="index.html">My Math Site</a></h1>
                         </div>
 
-                        <div id="main">
+                        <div id="main" style="position: absolute;">
                             <nav class="menu">
                                 <ul>
-                                    <li> <a href="#"><img src="Imagenes/HomeIcon.png">Principal</a></li>
+                                    <li> <a href="index.html"><img src="Imagenes/HomeIcon.png">Principal</a></li>
 
                                     <li><a href="#">Soluc. de ecuaciones</a>
                                         <ul>
                                             <li><a href="#">Newton Raphson</a></li>
-                                            <li><a href="#">Newton Raphson</a></li>
-                                            <li><a href="#">Newton Raphson</a></li>
-                                            <li><a href="#">Newton Raphson</a></li>
+                                            <li><a href="#">Biseccion</a></li>
+                                            <li><a href="#">Triseccion</a></li>
+                                            <li><a href="#">Secante</a></li>
                                         </ul>
                                     </li>
                                     
@@ -91,12 +97,12 @@
 
 
                         <div id="content">
+                            <div id="main">
+                            </div>
 
-                            <h1>Aquí iría el contenido :V</h1>
-                            <p>Y he aquí un poquito de musiquita, mientras tanto...</p>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/5qap5aO4i9A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe
-
-
+                            <h1 class="sub" >Aqui iria el contenido</h1>
+                            <p>Y he aqui un poquito de musiquita, mientras tanto...</p>
+                            <iframe class="lofi" width="560" height="315" src="https://www.youtube.com/embed/5qap5aO4i9A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe
                         </div>
 
 
