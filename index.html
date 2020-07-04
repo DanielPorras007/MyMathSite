@@ -3,9 +3,10 @@
 <html lang="es">
     <head>
         <title> My Math Site </title>
-        
+
         <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-        <link rel="stylesheet" type="text/css" href="index_style.css" />
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="index_style.css" >
 
         <style type="text/css">
             h1 {
@@ -29,6 +30,26 @@
                 text-decoration: none;
             }    
 
+            #facebook:hover{
+                color: #3a68ff;
+            }
+
+            #facebook{
+                color: rgb(192, 192, 192);
+                font-family: pixel;
+                text-decoration: none;
+            }
+
+            #falogo:hover{
+                color: #3a68ff;
+            }
+
+            #falogo{
+                color: rgb(192, 192, 192);
+                font-family: logos;
+                font-size: 18px;
+                text-decoration: none;
+            }
             .sub{
                 color: black;
                 font-size: 70px;
@@ -39,76 +60,87 @@
     </head>
 
     <body>
+        <div class="general">
             <table width="997" border="0" cellpadding="0" cellspacing="0" bgcolor="#E4E4E4" align="center" 
-                <tr>
-                    <td>
-                        <div id="header">
-                            <div id="contact">
-
+            <tr>
+                <td>
+                    <div id="header">
+                        <div id="contact">
+                            <div id="social">
+                                <b> <a id="facebook" href="http://facebook.com">Facebook <a id="falogo" href="http://facebook.com"> F</a></a>  </b>
                             </div>
+                        </div>
+                        <h1> <a id="titulo" href="index.html">My Math Site</a></h1>
+                    </div>
 
-                            <h1> <a id="titulo" href="index.html">My Math Site</a></h1>
+                    <div id="main" style="position: absolute;">
+                        <nav class="menu">
+                            <ul>
+                                <li> <a href="index.html"><img src="Imagenes/HomeIcon.png">Principal</a></li>
+
+                                <li><a href="#">Soluc. de ecuaciones</a>
+                                    <ul>
+                                        <li><a href="#">Newton Raphson</a></li>
+                                        <li><a href="#">Biseccion</a></li>
+                                        <li><a href="#">Triseccion</a></li>
+                                        <li><a href="#">Secante</a></li>
+                                    </ul>
+                                </li>
+                                
+                                <li><a href="#">Aprox. Integrales</a>
+                                    <ul>
+                                        <li><a href="#">Metodo de Trapecio</a></li>
+                                        <li><a href="#">Metodo de Rectangulos</a></li>
+                                        <li><a href="#">Metodo de Simpson</a>
+                                            <ul>
+                                                <li><a href="#">Metodo de Simpson 1/3</a></li>
+                                                <li><a href="#">Metodo de Simpson 3/8</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li><a href="#">Interpolacion Polinom.</a>
+                                    <ul>
+                                        <li><a href="#">Lagrange</a></li>
+                                        <li><a href="#">Newton</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a href="#">Cosas varias</a>
+                                    <ul>
+                                        <li><a target="_blank" href="https://www.geogebra.org/download">Desc. GeoGebra</a></li>
+                                        <li><a href="#">Tutoriales</a></li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </nav> 
+                    </div>
+
+
+                    <div id="content">
+                        <div style="height: 30px;">
                         </div>
 
-                        <div id="main" style="position: absolute;">
-                            <nav class="menu">
-                                <ul>
-                                    <li> <a href="index.html"><img src="Imagenes/HomeIcon.png">Principal</a></li>
-
-                                    <li><a href="#">Soluc. de ecuaciones</a>
-                                        <ul>
-                                            <li><a href="#">Newton Raphson</a></li>
-                                            <li><a href="#">Biseccion</a></li>
-                                            <li><a href="#">Triseccion</a></li>
-                                            <li><a href="#">Secante</a></li>
-                                        </ul>
-                                    </li>
-                                    
-                                    <li><a href="#">Aprox. Integrales</a>
-                                        <ul>
-                                            <li><a href="#">Metodo de Trapecio</a></li>
-                                            <li><a href="#">Metodo de Rectangulos</a></li>
-                                            <li><a href="#">Metodo de Simpson</a>
-                                                <ul>
-                                                    <li><a href="#">Metodo de Simpson 1/3</a></li>
-                                                    <li><a href="#">Metodo de Simpson 3/8</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-
-                                    <li><a href="#">Interpolacion Polinom.</a>
-                                        <ul>
-                                            <li><a href="#">Lagrange</a></li>
-                                            <li><a href="#">Newton</a></li>
-                                        </ul>
-                                    </li>
-
-                                    <li><a href="#">Cosas varias</a>
-                                        <ul>
-                                            <li><a target="_blank" href="https://www.geogebra.org/download">Desc. GeoGebra</a></li>
-                                            <li><a href="#">Tutoriales</a></li>
-                                        </ul>
-                                    </li>
-
-                                </ul>
-                            </nav> 
-                        </div>
-
-
-                        <div id="content">
-                            <div id="main">
+                        <div id="cont">
+                            <div style="height: 30px;">
                             </div>
-
-                            <h1 class="sub" >Aqui iria el contenido</h1>
+                            <h1 class="sub" >Titulo del tema</h1>
+                            <div style="height: 30px;">
+                            </div>
                             <p>Y he aqui un poquito de musiquita, mientras tanto...</p>
-                            <iframe class="lofi" width="560" height="315" src="https://www.youtube.com/embed/5qap5aO4i9A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe
+                            <iframe class="lofi" width="560" height="315" src="https://www.youtube.com/embed/5qap5aO4i9A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
 
+                    </div>
 
-                    </td>   
-                </tr>
-            </table>
+
+                </td>   
+            </tr>
+        </table>
+        </div>
+
             
     </body>
 

@@ -1,6 +1,21 @@
 *{
     padding: 0px;
 }
+div#contact{
+    margin: 0px;
+    padding-top: 0px;
+    width: 997px;
+    height: 40px;
+}
+
+div#social{
+    margin: 20px;
+    padding-top: 7px;
+    margin-top: 0px;
+    width: 700;
+    height: 20;
+
+}
 
 div#header{
     margin-top:0px;
@@ -16,19 +31,12 @@ body {
     background-repeat:no-repeat;
     margin:0px;
     padding:0px;
-    background-color:#1d272d;
+    background-color:#000000;
     font-family:sans-serif;
     font-size:13px;
     background-attachment:fixed;
 }
 
-div#contact{
-    margin: 0px;
-    padding: 0px;
-
-    width: 997px;
-    height: 40px;
-}
 
 div#main{
     margin-top:0px;
@@ -42,6 +50,12 @@ div#content{
     width: 997px;
     height: 2200px;
     background-color: "#fff";
+}
+
+div#cont{
+    width: 997px;
+    height: 2200px;
+    background-color: #E4E4E4;
 }
 
 .menu ul {
@@ -83,6 +97,12 @@ div#content{
     font-family: pixel;
     src: url("Fuentes/pixelmix.ttf")
 }
+
+@font-face {
+    font-family: logos;
+    src: url("Fuentes/icons.ttf")
+}
+
 
 .lofi{
     padding-left: 2em;
