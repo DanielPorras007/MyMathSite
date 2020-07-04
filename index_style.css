@@ -100,9 +100,13 @@ div#cont{
 
 @font-face {
     font-family: logos;
-    src: url("Fuentes/icons.ttf")
+    src: url("Fuentes/icons.woff")
 }
 
+@font-face {
+    font-family: outof;
+    src: url("Fuentes/OutOfMyLeague.ttf")
+}
 
 .lofi{
     padding-left: 2em;
