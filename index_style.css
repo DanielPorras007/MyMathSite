@@ -58,6 +58,30 @@ div#cont{
     background-color: #E4E4E4;
 }
 
+div#tema{
+    width: 370px;
+    height: 315px;
+    background-color: #e4e4e4;
+    padding-top: 0px;
+    padding: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+div#tutorial{
+    width: 560px;
+    height: 315px;
+    background-color: rgb(34, 106, 139);
+    margin-right: 10px;
+    padding: 10px;
+    float: right;
+}
+
+.textema{
+    font-size: 18px;
+    color: rgb(0,0,0);
+}
+
 .menu ul {
     display: flex;
     margin: 0px;
@@ -113,6 +137,16 @@ div#cont{
     src: url("Fuentes/Simpson.otf")
 }
 
-.lofi{
-    padding-left: 2em;
+@font-face {
+    font-family: comfort;
+    src: url("Fuentes/Comfortaa.ttf")
+}
+
+@font-face {
+    font-family: caviar;
+    src: url("Fuentes/CaviarDreams.ttf")
+}
+@font-face {
+    font-family: caviar2;
+    src: url("Fuentes/textos.ttf")
 }
