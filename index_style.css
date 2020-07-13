@@ -77,12 +77,11 @@ div#tutorial{
     float: right;
 }
 
-.slid{
-    margin: auto;
+.slid{   
+    margin: auto; 
     padding: 0px;
     height: 400px;
     width: 700px;
-    background-color: #e4e4e4;
     overflow: hidden;
 }
 
