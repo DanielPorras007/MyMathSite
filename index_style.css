@@ -116,6 +116,20 @@ div#tutorial{
     100% {margin-left: -300%;}
 }
 
+#textema1 a{
+    text-decoration: none; 
+    color: rgb(56, 15, 110); 
+    font-size: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#textema1 a:hover{ 
+    color: slateblue;
+}
+#textema1 h3:hover{ 
+    color: slateblue;
+}
+
+
 .textema{
     font-size: 18px;
     color: rgb(0,0,0);
